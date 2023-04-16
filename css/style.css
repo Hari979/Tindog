@@ -1,0 +1,157 @@
+
+/*Navbar & title Section*/
+
+.navbar-nav {
+    margin-left: auto;
+}
+h1 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.75;
+    font-weight: 900;
+    margin-top: 25px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    color:white;
+}
+#title {
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+.nav-link {
+    font-size: 1.5rem;
+    line-height:1.3em;
+    padding:25px;
+}
+.nav-item{
+    padding:0 18px;
+}
+.phone-img {
+    width:45%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.download-button{
+    margin:0 3% 0 5%;
+}
+
+/*Features Section*/
+
+#features {
+    text-align: center;
+    line-height: 1.75;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.row h3{
+    font-weight:bolder;
+    font-size:1.5rem;
+}
+.row p{
+    color:#8f8f8f;
+    padding:0 20px 0 20px;
+}
+
+.fa-solid{
+    margin-bottom:10px;
+}
+.icon:hover .fa-heart:before {
+    content: "\f004";
+    color: #ff4c68;
+    
+}
+.icon:hover .fa-bullseye:before {
+    content: "\f140";
+    color: #ff4c68;
+    
+}
+.icon:hover .fa-circle-check:before {
+    content: "\f058";
+    color: #ff4c68;
+    
+}
+
+/*Testimonial Section*/
+
+#testimonials{
+    text-align:center;
+    background-color:#ef8172;
+    color:#fff;
+}
+
+    #testimonials h2 {
+        font-family: "Montserrat";
+        font-size:3rem;
+        line-height:1.5;
+        font-weight:bold;
+    }
+.testimonal-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom:3%;
+}
+.press-logo{
+    width:15%;
+    margin:50px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+/*pricing section*/
+
+#pricing{
+    text-align:center;
+    padding:100px;
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5%;
+}
+#cta h3{
+    font-weight:bold;
+    color:#ffff;
+    margin-bottom:40px;
+    font-size:3rem;
+}
+#footer{
+    text-align:center;
+}
+.footer-button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding:2%;
+}
+
+.fa-facebook:hover {
+    color: #ff4c68;
+}
+.fa-twitter:hover {
+    color: #ff4c68;
+}
+.fa-instagram:hover {
+    color: #ff4c68;
+}
+.fa-reddit:hover {
+    color: #ff4c68;
+}

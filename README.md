@@ -1,2 +1,1 @@
-# Tindog
-HTML/CSS/Bootstrap - Newbie
+TinDog Starting Files
