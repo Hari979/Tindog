@@ -4,6 +4,27 @@
 .navbar-nav {
     margin-left: auto;
 }
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 h1 {
     font-family: "Montserrat";
     font-size: 3rem;
@@ -82,15 +103,15 @@ h1 {
 
 /*Testimonial Section*/
 
-#testimonials{
-    text-align:center;
-    background-color:#ef8172;
-    color:#fff;
+#testimonials {
+    text-align: center;
+    background-color: #dee2e6;
+    color: black;
 }
 
     #testimonials h2 {
         font-family: "Montserrat";
-        font-size:3rem;
+        font-size:2rem;
         line-height:1.5;
         font-weight:bold;
     }
@@ -101,11 +122,11 @@ h1 {
 }
 #press {
     text-align: center;
-    background-color: #ef8172;
-    padding-bottom:3%;
+    background-color: #dee2e6;
+    padding-bottom: 3%;
 }
 .press-logo{
-    width:15%;
+    width:50%;
     margin:50px 20px 50px;
 }
 .carousel-item{
