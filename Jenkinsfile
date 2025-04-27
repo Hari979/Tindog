@@ -19,7 +19,10 @@ pipeline {
                 echo "Copying new files..."
                 sudo cp -r * $TARGET_DIR/
 
-                echo "Deployment done!"
+                echo "Restarting Nginx..."
+                sudo systemctl restart nginx
+
+                echo "Deployment complete and Nginx restarted!"
                 '''
             }
         }
