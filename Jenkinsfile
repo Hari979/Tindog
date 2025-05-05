@@ -1,7 +1,7 @@
 pipeline {
     agent  {label 'Jenkins-Slave'}
     environment {
-        TARGET_DIR = '/usr/share/nginx/html'
+        TARGET_DIR = '/var/www/html'
       }
     stages {
         stage('Clone Repository') {
