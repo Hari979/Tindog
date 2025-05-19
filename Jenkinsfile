@@ -45,7 +45,7 @@ pipeline {
                 docker rm -f tindog-container || true
 
                 echo "Running new container..."
-                docker run -d --name tindog-container -p 80:80 $IMAGE_NAME:$TAG
+                docker run -d --name tindog-container -p 8081:80 $IMAGE_NAME:$TAG
                 '''
             }
         }
