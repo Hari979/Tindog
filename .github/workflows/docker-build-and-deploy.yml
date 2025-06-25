@@ -39,6 +39,9 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.EC2_KEY }}
           script: |
+            IMAGE_NAME=hari1479/tindog
+            TAG=latest
+
             docker rm -f tindog-container || true
             docker pull $IMAGE_NAME:$TAG
             docker run -d --name tindog-container -p 8081:80 $IMAGE_NAME:$TAG
